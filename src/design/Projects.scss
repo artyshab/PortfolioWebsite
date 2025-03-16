@@ -1,0 +1,38 @@
+.projects-container{
+    width: 100%;
+  
+    .project{
+        width: 90%;
+        height: auto;
+        padding: 1.2rem;
+        border: 2px solid rgba(0, 0, 0, 0.219);
+        border-radius: 10px;
+        margin: 1.5rem 0;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        &:hover {
+            border: 2px solid #B9B28A(0, 0, 0);
+            background-color: #B9B28A;
+            transition: 0.3 all ease;
+        }
+         
+        a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        img {
+            width: 200px;
+            border-radius: 15px;
+        }
+        .project-info {
+            .title {
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

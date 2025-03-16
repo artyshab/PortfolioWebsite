@@ -1,0 +1,14 @@
+.about-container {
+    padding: 5rem 2rem;
+    min-height: 90vh; // full viewport height for better scrolling experience
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    p {
+      font-size: 1.3rem;
+      line-height: 30px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }

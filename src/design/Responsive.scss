@@ -1,0 +1,74 @@
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .details-container {
+    width: 90%;
+    position: relative;
+    height: auto;
+    padding: 1rem;
+    .personal-details {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      #name {
+        font-size: 1.9rem;
+      }
+      #job-title {
+        font-size: 1.4rem;
+      }
+      #description {
+        width: 90%;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 2rem;
+
+    .work {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .about-container {
+    padding: 5rem 0rem;
+
+    p {
+      font-size: 1rem;
+      line-height: 20px;
+    }
+  }
+
+  .experience-container {
+    padding: 0;
+    height: 600px;
+    min-height: 100vh;
+    p {
+      margin: 1rem auto;
+    }
+  }
+
+  .projects-container {
+    width: 100%;
+
+    .project {
+      a {
+        flex-direction: column;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+      .project-info {
+        .title {
+          font-size: 1.2rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

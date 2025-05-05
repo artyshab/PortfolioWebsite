@@ -4,6 +4,7 @@ import aurora from "../assets/project-images/aurora.jpg";
 import rickmorty from "../assets/project-images/rickmorty.png";
 import linkshortener from "../assets/project-images/linkshortener.png";
 import cvgenerator from "../assets/project-images/CVgenerator.png";
+import imagegenerator from "../assets/project-images/image-generator.png";
 
 export default function Projects() {
   return (
@@ -18,6 +19,17 @@ export default function Projects() {
             and CSS. It showcases a clean and modern design, featuring dynamic
             content and smooth user experience. Perfect for displaying projects,
             services, or personal portfolios."
+          </p>
+        </div>
+        </a>
+      </div>
+      <div className="project">
+      <a href="https://imagegeneratorsite.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <img src={imagegenerator} alt="Image Generatpr" />
+        <div className="project-info">
+          <p className="title">Image Generator</p>
+          <p className="description">
+            "Image Generator is a web app that lets users search and save high-quality images from Unsplash. Log in to like and store your favorite photos in your personal collection."
           </p>
         </div>
         </a>

@@ -3,7 +3,11 @@ import profileImg from "../assets/profile-image.jpg";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 
-export default function PersonalDetails({ activeSection }) {
+export default function PersonalDetails({ activeSection, scrollToSection }) {
+  const handleClick = (section) => {
+    scrollToSection[section]?.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="details-container">
       <div className="personal-details">
@@ -14,29 +18,44 @@ export default function PersonalDetails({ activeSection }) {
           Passionate about building intuitive and responsive web applications.
         </p>
         <div className="tags">
-          <p id="about" className={activeSection === "about" ? "active" : ""}>
+          <button
+            type="button"
+            className={`tag ${activeSection === "about" ? "active" : ""}`}
+            onClick={() => handleClick("about")}
+          >
             About
-          </p>
-          <p
-            id="experience"
-            className={activeSection === "experience" ? "active" : ""}
+          </button>
+
+          <button
+            type="button"
+            className={`tag ${activeSection === "experience" ? "active" : ""}`}
+            onClick={() => handleClick("experience")}
           >
             Experience
-          </p>
-          <p
-            id="projects"
-            className={activeSection === "projects" ? "active" : ""}
+          </button>
+          <button
+            type="button"
+            className={`tag ${activeSection === "projects" ? "active" : ""}`}
+            onClick={() => handleClick("projects")}
           >
             Projects
-          </p>
+          </button>
         </div>
         <div className="socials">
-        <a href="https://github.com/artyshab" target="_blank" rel="noopener noreferrer">
-        <IoLogoGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/arti-shabani-80a359197" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin />
-        </a>
+          <a
+            href="https://github.com/artyshab"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoLogoGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/arti-shabani-80a359197"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@
     padding: 5rem 2rem;
     min-height: 90vh; // full viewport height for better scrolling experience
     display: flex;
+    flex-direction: column;
+    gap: 5px;
     align-items: center;
     justify-content: center;
   

@@ -35,7 +35,14 @@ export default function Home() {
 
   return (
     <div className="container">
-      <PersonalDetails activeSection={activeSection} />
+      <PersonalDetails
+        activeSection={activeSection}
+        scrollToSection={{
+          about: aboutRef,
+          experience: experienceRef,
+          projects: projectsRef,
+        }}
+      />
       <div className="work">
         <section id="about" ref={aboutRef}>
           <About />

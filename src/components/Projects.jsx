@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div className="projects-container">
       <div className="project">
-      <a href="https://dapper-daffodil-fce521.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://milanoagency.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img src={agency} alt="Agency" />
         <div className="project-info">
           <p className="title">Agency Website</p>
@@ -35,7 +35,7 @@ export default function Projects() {
         </a>
       </div>
       <div className="project">
-  <a href="https://spontaneous-taffy-7c1b6e.netlify.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://countriesranking.netlify.app/" target="_blank" rel="noopener noreferrer">
     <img src={countries} alt="Countries" />
     <div className="project-info">
       <p className="title">Countries Ranking</p>
@@ -50,7 +50,7 @@ export default function Projects() {
 </div>
 
       <div className="project">
-      <a href="https://stellar-sundae-839905.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://auroraprojectwebsite.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img src={aurora} alt="Aurora" />
         <div className="project-info">
           <p className="title">Tailwind Project</p>
@@ -64,7 +64,7 @@ export default function Projects() {
         </a>
       </div>
       <div className="project">
-      <a href="https://sparkly-cocada-35f490.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://rickmortygraphqlwebsite.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img src={rickmorty} alt="Rick and Morty" />
         <div className="project-info">
           <p className="title">GraphQL Project</p>
@@ -76,7 +76,7 @@ export default function Projects() {
         </a>
       </div>
       <div className="project">
-      <a href="https://reliable-beijinho-1f1147.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://linkshortenersite.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img src={linkshortener} alt="Link Shortener" />
         <div className="project-info">
           <p className="title">Link Shortener</p>
@@ -88,7 +88,7 @@ export default function Projects() {
         </a>
       </div>
       <div className="project">
-      <a href="https://papaya-douhua-7b5b0b.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://cvgeneratorwebsite.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img src={cvgenerator} alt="CVgenerator" />
         <div className="project-info">
           <p className="title">CVgenerator</p>

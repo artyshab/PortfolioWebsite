@@ -23,7 +23,7 @@ export default function Projects() {
               "FakeStore.co is a responsive eCommerce web application built with
               React.js. It fetches and displays products from an external API
               (fakestoreapi.com), featuring category filtering, pagination,
-              dynamic routing, and search functionality. ."
+              dynamic routing, and search functionality."
             </p>
           </div>
         </a>

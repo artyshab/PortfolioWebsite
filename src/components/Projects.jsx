@@ -6,6 +6,7 @@ import linkshortener from "../assets/project-images/linkshortener.png";
 import cvgenerator from "../assets/project-images/CVgenerator.png";
 import imagegenerator from "../assets/project-images/image-generator.png";
 import fakestore from "../assets/project-images/fakestore.png";
+import tailwindwebsite from "../assets/project-images/tailwindwebsite.png";
 
 export default function Projects() {
   return (
@@ -59,6 +60,24 @@ export default function Projects() {
               "Image Generator is a web app that lets users search and save
               high-quality images from Unsplash. Log in to like and store your
               favorite photos in your personal collection."
+            </p>
+          </div>
+        </a>
+      </div>
+      <div className="project">
+        <a
+          href="https://tailwindblogwebsite.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={tailwindwebsite} alt="Tailwind Website" />
+          <div className="project-info">
+            <p className="title">Tailwind Blog</p>
+            <p className="description">
+              "This is a static landing page built with Astro.js, a modern web
+              framework optimized for speed and simplicity. The page is styled
+              using Tailwind CSS, making it fully responsive and visually clean
+              across all devices."
             </p>
           </div>
         </a>

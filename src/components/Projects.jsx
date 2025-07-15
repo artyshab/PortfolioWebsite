@@ -7,10 +7,29 @@ import cvgenerator from "../assets/project-images/CVgenerator.png";
 import imagegenerator from "../assets/project-images/image-generator.png";
 import fakestore from "../assets/project-images/fakestore.png";
 import tailwindwebsite from "../assets/project-images/tailwindwebsite.png";
+import skopje from "../assets/project-images/skopje.png";
 
 export default function Projects() {
   return (
     <div className="projects-container">
+      <div className="project">
+        <a
+          href="https://skopje-website.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={skopje} alt="Skopje_Image" />
+          <div className="project-info">
+            <p className="title">Skopje Website</p>
+            <p className="description">
+              "This is a modern, responsive landing page built with React.js.
+              It's currently in development and designed to showcase services,
+              testimonials, and company information in a clean, user-friendly
+              layout."
+            </p>
+          </div>
+        </a>
+      </div>
       <div className="project">
         <a
           href="https://fakeecommercewebsite.netlify.app/"
